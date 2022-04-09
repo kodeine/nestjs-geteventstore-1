@@ -12,8 +12,8 @@ async function bootstrap() {
   );
 
   app.useGlobalFilters(new AllExceptionFilter());
-  await app.listen(3000, () => {
-    console.log('Application is listening on port 3000.');
+  await app.listen(3300, () => {
+    console.log('Application is listening on port 3300.');
   });
 }
 

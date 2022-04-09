@@ -10,20 +10,20 @@
   },
   "dependencies": {
     "@godaddy/terminus": "^4.4.1",
-    "@nestjs/common": "^7.0.0",
-    "@nestjs/core": "^7.0.0",
-    "@nestjs/cqrs": "^7.0.1",
-    "@nestjs/platform-express": "^6.0.0",
-    "@nestjs/terminus": "^7.0.1",
+    "@nestjs/common": "8.2.2",
+    "@nestjs/core": "8.2.2",
+    "@nestjs/cqrs": "8.0.0",
+    "@nestjs/platform-express": "8.2.2",
+    "@nestjs/terminus": "8.0.1",
     "class-transformer": "^0.4.0",
     "class-validator": "^0.13.1",
     "cli-color": "^1.4.0",
     "global": "^4.4.0",
-    "nestjs-context": "^0.12.0",
-    "nestjs-geteventstore": "^5.0.19",
+    "nestjs-context": "github:kodeine/nestjs-context",
+    "nestjs-geteventstore": "github:kodeine/nestjs-geteventstore-1#bynd",
     "nestjs-pino-stackdriver": "^2.1.0",
     "reflect-metadata": "^0.1.13",
-    "rxjs": "^7.0.0"
+    "rxjs": "7.2.0"
   },
   "devDependencies": {
     "@compodoc/compodoc": "^1.1.11",
